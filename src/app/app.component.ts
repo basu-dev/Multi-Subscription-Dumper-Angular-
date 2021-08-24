@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { interval, Subscription } from 'rxjs';
+import { subscription } from './subscription.decorator';
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'typeracer-video';
+
+
 }
